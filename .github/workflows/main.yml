@@ -14,12 +14,6 @@ on:
       - main
       - develop
       - feature/test
-  workflow_dispatch:
-       inputs:
-          pylint:
-            description: |
-              Default is false.
-            default: false
 
 jobs:
   build:
