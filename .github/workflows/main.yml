@@ -36,7 +36,7 @@ jobs:
           git config --global user.name "Christoffer Näs"
           git add -A
           git commit -m "Formatted code"
-          git push origin master
+          git push origin main
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
