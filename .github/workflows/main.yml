@@ -32,7 +32,7 @@ jobs:
     - name: Commit changes
       run: |
           # Stage the file, commit and push
-          git add time.txt
+          git add -A
           git commit -m "Formatted code"
           git push origin master
     - name: Lint with flake8
