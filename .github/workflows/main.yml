@@ -32,6 +32,8 @@ jobs:
     - name: Commit changes
       run: |
           # Stage the file, commit and push
+          git config --global user.email "christoffernas2001@gmail.com"
+          git config --global user.name "Christoffer Näs"
           git add -A
           git commit -m "Formatted code"
           git push origin master
