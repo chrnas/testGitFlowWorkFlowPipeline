@@ -30,9 +30,11 @@ jobs:
       with:
         args: --recursive --in-place --aggressive --aggressive .
     - name: Commit changes
-      run: git add -A
-           git commit
-           git push
+      run: |
+          # Stage the file, commit and push
+          git add time.txt
+          git commit -m "Formatted code"
+          git push origin master
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
