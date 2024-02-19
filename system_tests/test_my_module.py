@@ -1,7 +1,6 @@
 import sys
 import pytest
 from my_module import add
-sys.path.append('../testGitFlowWorkFlowPipeline')
 
 
 def test_add_numbers():
