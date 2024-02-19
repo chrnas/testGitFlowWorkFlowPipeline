@@ -1,7 +1,7 @@
 import sys
 import pytest
 from system_tests import add
-sys.path.append('../system_tests')
+sys.path.append('../')
 
 
 def test_add_numbers():
