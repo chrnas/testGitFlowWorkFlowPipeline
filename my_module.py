@@ -1,3 +1,11 @@
+"""
+This module provides various tools for summation.
+
+Functions:
+    * add(a,b): Perform summation.
+"""
+
+
 def add(a, b):
     """
     Adds two numbers together.
