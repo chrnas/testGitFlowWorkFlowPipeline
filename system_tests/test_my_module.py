@@ -1,6 +1,6 @@
 import sys
 import pytest
-from my_module import add
+from testGitFlowWorkFlowPipeline import my_module
 sys.path.append('../testGitFlowWorkFlowPipeline')
 
 
