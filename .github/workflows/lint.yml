@@ -22,6 +22,9 @@ jobs:
           # super-linter needs the full git history to get the
           # list of files that changed across commits
           fetch-depth: 0
+      -name: Install-dependencies
+        run: |
+          pip install pytest
 
       - name: Super-linter
         uses: super-linter/super-linter@v6.1.1  # x-release-please-version
