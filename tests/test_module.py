@@ -6,7 +6,10 @@ Functions:
 """
 
 import pytest
-from src import module
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))  # noqa
+import module as m  # noqa
 
 
 def test_add():
