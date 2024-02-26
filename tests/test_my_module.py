@@ -6,7 +6,7 @@ Functions:
 """
 
 import pytest
-from ..src import add
+from ..src import my_module
 
 
 def test_add():
@@ -15,10 +15,10 @@ def test_add():
 
     This function checks if the add_numbers function produces the expected results.
     """
-    assert add(1, 2) == 3
-    assert add(0, 0) == 0
-    assert add(-1, 1) == 0
-    assert add(-1, -1) == -2
+    assert my_module.add(1, 2) == 3
+    assert my_module.add(0, 0) == 0
+    assert my_module.add(-1, 1) == 0
+    assert my_module.add(-1, -1) == -2
 
 
 if __name__ == "__main__":
