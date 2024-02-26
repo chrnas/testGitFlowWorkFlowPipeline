@@ -16,7 +16,7 @@ def test_add():
     """
     Test the add_numbers function.
 
-    This function checks if the add_numbers function
+    This function checks if the add_numbers function 
     produces the expected results.
     """
     assert m.add(1, 2) == 3
