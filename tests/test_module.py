@@ -6,7 +6,7 @@ Functions:
 """
 
 import pytest
-from ..src import module
+from .src import module
 
 
 def test_add():
