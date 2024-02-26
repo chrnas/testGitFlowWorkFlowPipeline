@@ -1,1 +1,1 @@
-from .my_module import add
+from .module import add
