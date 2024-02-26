@@ -9,7 +9,7 @@ import pytest
 from src.my_module import add
 
 
-def test_add_numbers():
+def test_add():
     """
     Test the add_numbers function.
 
